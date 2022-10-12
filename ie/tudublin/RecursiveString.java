@@ -14,7 +14,7 @@ public class RecursiveString {
     public static void change(char []arr, int i, int j)
     {
         char temp;
-        temp=arr[i];
+        temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
