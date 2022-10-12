@@ -6,7 +6,6 @@ public class FrequencyOfArray {
     {
         int maxcount = 0;
         int number = 0;
-        int temp = 0;
         for(int i=0; i<array.length; i++) {
             int count = 0;
             for (int j=0; j<array.length; j++) {
@@ -18,13 +17,9 @@ public class FrequencyOfArray {
                 maxcount = count;
                 number = array[i];
             }
-            // else if (count == maxcount){
-            //     temp = number;
-            //     number = array[i];
-            // }
         }
         
-        System.out.println("Most frequent number in this array is: "+number+ /*+temp+*/ " and it appears " +maxcount+ " times.");
+        System.out.println("Most frequent number in this array is: "+number+ " and it appears " +maxcount+ " times.");
         
     }
     public static void main(String[] args)
