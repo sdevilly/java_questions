@@ -10,7 +10,7 @@ public class RecursiveString {
         change(string, i, l-i);
         reverse(string, i+1);
     }
-    // swaps the start and end of the array with each other. i increases and j decreases as the loop goes on
+    // changes the start and end of the array with each other
     public static void change(char []arr, int i, int j)
     {
         char temp;
